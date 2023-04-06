@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { latest, recommended, upcome } from '../dummyData'
 
 const HomePage = () => {
   return (

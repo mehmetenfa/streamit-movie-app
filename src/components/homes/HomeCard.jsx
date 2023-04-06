@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const HomeCard = () => {
+const HomeCard = () => {
   return (
     <div>HomeCard</div>
   )
 }
+
+export default HomeCard

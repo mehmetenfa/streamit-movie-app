@@ -5,6 +5,7 @@ import Home from "./Home";
 
 const Homes = () => {
   const [items, setItems] = useState(homeData);
+
   return (
     <>
       <section className="home">

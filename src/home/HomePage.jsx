@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { latest, recommended, upcome } from "../dummyData";
 import Homes from "../components/homes/Homes";
-import Upcomming from "../components/upcomming/Upcomming";
 import Trending from "../components/trending/Trending";
+import Upcomming from "../components/upcomming/Upcomming";
+import { latest, recommended, upcome } from "../dummyData";
 
 const HomePage = () => {
   const [items, setItems] = useState(upcome);

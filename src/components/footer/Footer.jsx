@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="box">
             <ul className="flex">
               <li>Terms of Use</li>
-              <li>Privacy Policy</li>
+              <li>Privacy-Policy</li>
               <li>Blog</li>
               <li>FAQ</li>
               <li>Watch List</li>

@@ -15,7 +15,6 @@ const SampleNextArrow = (props) => {
     </div>
   );
 };
-
 const SamplePrevArrow = (props) => {
   const { onClick } = props;
   return (
@@ -26,11 +25,10 @@ const SamplePrevArrow = (props) => {
     </div>
   );
 };
-
 const Upcomming = ({ items, title }) => {
   const settings = {
     dots: false,
-    infitinte: true,
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
